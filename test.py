@@ -1,9 +1,10 @@
 import requests
 import pyttsx3
 
+# api url
 url = "https://zenquotes.io/api/random"
 response = requests.get(url)
-engine = pyttsx3.init()
+engine = pyttsx3.init() # implement a audio model 
 
 key = int(input("To Generate a rondom quote press 1 :"))
 
